@@ -6,7 +6,7 @@ NAME = "streamlit_in_snowflake"
 
 INSTALL_REQUIRES = [
     "pyarrow[pandas]<10.1.0,>=10.0.1",
-    "streamlit==1.16.0",
+    "streamlit>=1.16.0",
     "snowflake-snowpark-python[pandas]",
 ]
 
